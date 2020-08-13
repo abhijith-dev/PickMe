@@ -1,0 +1,92 @@
+body{
+    background-color: #282c34;
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 4rem;
+    color: rgba(126, 30, 110, 0.712);
+    transform: rotateZ(3deg);
+    text-shadow: 3px 3px #0007;
+    cursor:pointer;
+    transition: transform 1s ease-in-out;
+}
+h1:hover{
+    transform: scale(1.2);
+}
+.container{
+    width: 40rem;
+    height: 50vh;
+    overflow-y: visible;
+    border: 1.2px solid #0007;
+    border-radius: 7px;
+    box-shadow: 0 0 5px 0px #0009;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transform: translate(50%,10%);
+}
+input{
+    margin:1.2rem 0 0 0;
+    width: 300px;
+    height: 5vh;
+    border:2px solid rgba(226, 120, 170, 0.322);
+    border-radius: 7px;
+}
+input:hover{
+    border:2px solid rgb(179, 16, 170);
+}
+input::placeholder{
+    font-weight:600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+select{
+    margin:1.2rem 0 0 0;
+    width: 300px;
+    height: 5vh;
+    border:2px solid rgba(226, 120, 170, 0.322);
+    border-radius: 7px;  
+}
+figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(216, 14, 206);
+    font-size: 1.2rem;
+}
+button{
+    margin:1.5rem 0 0 0;
+    height: 5vh;
+    width: 150px; 
+    font-size: 0.9rem; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border:1.5px solid rgb(179, 16, 170);
+    border-radius: 3px;
+    background-color:rgb(179, 16, 170);
+    transition:background-color 650ms ease-in-out ;
+}
+button:hover{
+    background-color:rgb(224, 8, 214);
+    color: rgba(0, 0, 0, 0.767);
+}
+p{
+    margin:1.2rem 0 0 0; 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    color:rgb(179, 16, 170);
+    font-weight: 600;
+}
+span{
+    margin:0.7rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: rgb(206, 12, 12);
+    font-weight: 600;
+    opacity: 2;
+}
